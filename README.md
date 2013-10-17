@@ -10,7 +10,7 @@ The program simply reads brainfuck programs and output the result(if there is an
 
 ## Installation
 
-Simply call python BFInterpreter.py 'Your_Program_Here'
+Simply call ```python BFInterpreter.py 'Your_Program_Here'```.
 Append --enable-output to output the contents of every table in th end of the program
 
 ## Tests
