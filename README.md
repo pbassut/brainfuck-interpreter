@@ -17,16 +17,16 @@ Append --enable-output to output the contents of every table in th end of the pr
 A couple of examples goes below:
 
 Copies cell #1 to Cell #2 and prints the ASCII value of cell #2
- python BFInterpreter.py '++++++ [ > ++++++++++ < - ] > +++++ .'
+```python BFInterpreter.py '++++++ [ > ++++++++++ < - ] > +++++ .'```
 
 Reads a input character and copies to cell #2
- python BFInterpreter.py ', [ > + < - ] > .'
+```python BFInterpreter.py ', [ > + < - ] > .'```
 
 Reads two input characters, multiply them, stores the result on cell #3
- python BFInterpreter.py ',>,< [ > [ >+ >+ << -] >> [- << + >>] <<< -] >>'
+```python BFInterpreter.py ',>,< [ > [ >+ >+ << -] >> [- << + >>] <<< -] >>'```
 
 Makes the program run out of memory
- python BFInterpreter.py '+[>+]'
+```python BFInterpreter.py '+[>+]'```
 
 ## License
 
