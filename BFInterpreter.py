@@ -102,4 +102,9 @@ class Interpreter():
             print 'Cell #%d: %s ' % (index, each)
 
 
-interpreter = Interpreter('++++++ [ > ++++++++++ < - ] > +++++ .', True)
+if __name__ == "__main__":
+    output = False
+    if '--enable-output' in sys.argv:
+        output = True
+
+    interpreter = Interpreter(sys.argv[1], output)
