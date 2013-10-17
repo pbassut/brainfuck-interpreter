@@ -22,7 +22,7 @@ Copies cell #1 to Cell #2 and prints the ASCII value of cell #2
 Reads a input character and copies to cell #2
 <code>python BFInterpreter.py ', [ > + < - ] > .'</code>
 
-Reads two input characters, multiply them, stores the result on cell #3
+Reads two input characters, multiply them, stores the result on cell #3 <br>
 <code>python BFInterpreter.py ',>,< [ > [ >+ >+ << -] >> [- << + >>] <<< -] >>'</code>
 
 Makes the program run out of memory
